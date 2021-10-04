@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список дел</title>
+    <script src="/js/jquery-3.4.0.min.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+  <div id="task-form">
+    <form>
+        <h2>добавить дело</h2>
+        <label>название:</label>
+        <input type="text" name="name" value="">
+        <label>дата:</label>
+        <input type="text" name="date" value="">
+        <label>приоритет:</label>
+        <input type="text" name="priority" value="">
+        <hr>
+        <button id="save-task">Сохранить</button>
+    </form>
+  </div>
+  <div id="update-form" style="display: none;">
+      <form>
+          <h2>Обновить дело</h2>
+          <label>название:</label>
+          <input type="text" name="name" value="">
+          <label>дата:</label>
+          <input type="text" name="date" value="">
+          <label>приоритет:</label>
+          <input type="text" name="priority" value="">
+          <hr>
+          <button id="update-task">Обновить</button>
+      </form>
+  </div>
+  <h1>Список дел</h1>
+ <button id="show-add-task-form">Добавить дело</button>
+ <br><br>
+ <div id="task-list">
+
+ </div>
+</body>
+</html>
