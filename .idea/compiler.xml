@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="simple_server" />
-        <module name="сервер" />
         <module name="ToDoList - дз 2" />
+        <module name="simple_server" />
+        <module name="sss" />
+        <module name="сервер" />
         <module name="ToDoList" />
       </profile>
     </annotationProcessing>
