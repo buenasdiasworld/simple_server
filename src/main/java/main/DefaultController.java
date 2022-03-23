@@ -8,6 +8,6 @@ public class DefaultController {
 
     @RequestMapping("/")
     public Integer index() {
-        return 0 + (int) (Math.random()*1001);
+        return 0 + (int) (Math.random()*10011);
     }
 }
